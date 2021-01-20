@@ -1,0 +1,48 @@
+.section-3 {
+    background: $secondary-background-color;
+}
+
+.section-3-upper {
+    text-align: center;
+}
+
+.section-3-upper h2 {
+    margin: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.section-3-upper p {
+    margin-bottom: 5rem;
+}
+
+.section-3 img {
+    background: #325DFF center no-repeat;
+    border-radius: 50%;
+    padding: 10px;
+    width: 88px;
+    height: 88px;
+}
+
+.section-3-lower {
+    height: 100%;
+    width: 100%;
+}
+
+.section-3 .tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-3 .tile {
+    display: table-cell;
+    border: 1px $border-color solid;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 10px;
+    max-width: 30%;
+    height: 374px;
+    background: $default-background-color;
+}
