@@ -1,0 +1,29 @@
+
+.section-2 {
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-2 .left-div {
+    flex: 50%;
+    text-align: left;
+    padding: 4rem;
+  }
+
+  .section-2 .left-div h2 {
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
+  .section-2 .left-div p {
+    margin: 1rem 0 0.8rem 0;
+    font-weight: 400;
+  }
+
+  .section-2 .right-div {
+    flex: 50%;
+    background: url(../img/Rectangle2.png)center no-repeat;
+    background-size: cover;
+  }

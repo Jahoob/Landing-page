@@ -1,12 +1,36 @@
-header button {
+button {
     background: #325DFF;
-    font-size: 14px;
-    padding: 30px 50px;
-    color: #fff;
-    font-family: lato, sans-serif;
-    border-radius: 50px;
+    font-size: 1rem;
+    padding: 1.5rem 2rem;
+    color: $light-font-color;
+    border-radius: 3rem;
     outline: none;
     text-transform: uppercase;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     border: none;
 }
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1.5rem;
+    transition: 0.5s;
+  }
+
+button:hover span {
+    padding-right: 1.5rem;
+  }
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

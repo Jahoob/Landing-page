@@ -1,59 +1,20 @@
+$light-font-color: #ffffff;
+$dark-font-color: #000;
+$default-background-color: #ffffff;
+$default-font-family: Lato, "sans-serif";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    width: 100%;
-    height: 100vh;
-    background: url(../img/background.png) center no-repeat;
-    background-size: cover;
-    justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,253,0.2);
-    font-family: 'Lato', sans-serif;
-    color: #ffffff;
+html, body {
+    font-family: $default-font-family;
+    font-size: 16px;
+    min-height: 100%;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    padding: 50px 70px;
-    font-weight: 700;
-}
-
-header h2 {
-    font-size: 28px;
-}
-
-header li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 10px;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.2rem;
-}
-
-header h1 {
-    font-weight: 300;
-    padding-top: 100px;
-    font-size: 100px;
-}
-
-header p {
-    font-size: 18px;
-    margin: 5rem;
-    max-width: 700px;
-}
-
-.center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 45px;
-    text-align: center;
+body {
+    background-color: $default-background-color;
 }
