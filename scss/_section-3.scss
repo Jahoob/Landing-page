@@ -1,5 +1,6 @@
 .section-3 {
     background: $secondary-background-color;
+    padding: 55px;
 }
 
 .section-3-upper {
@@ -29,20 +30,34 @@
     width: 100%;
 }
 
-.section-3 .tiles {
+.section-3-lower .tiles {
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
-.section-3 .tile {
-    display: table-cell;
+.section-3-lower .tile {
     border: 1px $border-color solid;
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 65px 60px 40px;
     margin: 10px;
     max-width: 30%;
     height: 374px;
     background: $default-background-color;
+}
+
+.section-3-lower h3 {
+    margin: 27px 0 0 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+.section-3-lower p {
+    font-size: 1rem;
+    font-weight: 300;
 }
