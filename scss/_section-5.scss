@@ -4,7 +4,7 @@
 
 .section-5 .section-5-upper {
     margin: auto;
-    height: 200px;
+    min-height: 200px;
     background: $secondary-background-color;
     width: auto;
     text-align: center;
@@ -73,4 +73,14 @@
     background: url(../img/Rectangle14.png) center no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+.section-5 .section-5-upper .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    padding: 85px 0 68px;
 }
