@@ -1,0 +1,126 @@
+@media only screen and (max-width: 768px) {
+    header {
+        max-height: 600px;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    header li {
+        font-size: 0.5rem;
+    }
+    header h1 {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.8rem;
+        margin: 2rem;
+    }
+
+    button {
+        font-size: 0.7rem;
+        padding: 0.9rem 1.8rem;
+        border-radius: 1.5rem;
+    }
+
+    button span:after {
+        right: -0.8rem;
+    }
+
+    button:hover span {
+        padding-right: 1rem;
+    }
+
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .section-2 .left-div {
+        text-align: center;
+        padding: 2.5rem;
+        min-height: 400px;
+    }
+
+    .section-2 .left-div h2 {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .section-2 .left-div p {
+        margin: 1.5rem 0 2rem 0;
+        font-size: 1rem;
+    }
+
+    .section-2 .right-div {
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        max-height: 400px;
+    }
+
+    header nav {
+        padding: 1.2rem 1.5rem;
+    }
+
+    header h2 {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    header li {
+        font-size: 0.4rem;
+    }
+    header h1 {
+        padding-top: 0.8rem;
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.5rem;
+        margin: 1rem;
+    }
+
+    button {
+        font-size: 0.5rem;
+        padding: 0.7rem 1.5rem;
+        border-radius: 1.2rem;
+    }
+
+    button span:after {
+        right: -0.5rem;
+      }
+
+    button:hover span {
+        padding-right: 0.8rem;
+      }
+
+    .section-2 {
+        min-height: 300px;
+        flex-direction: column;
+    }
+
+    .section-2 .left-div {
+        text-align: center;
+        padding: 2rem;
+    }
+
+  .section-2 .left-div h2 {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+  .section-2 .left-div p {
+        margin: 1rem 0 1.5rem 0;
+        font-size: 1rem;
+    }
+
+  .section-2 .right-div {
+        min-height: 300px;
+    }
+}
